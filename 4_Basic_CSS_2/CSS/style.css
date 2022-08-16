@@ -22,6 +22,9 @@ body {
 }
 
 /* Главная страница сайта (Файл Индекс) */
+.body-index {
+	font-family: Arial, Verdana, sans-serif; /* 4 модуль 1й пункт */
+}
 .main-content {
 	display: flex;
 	flex-direction: column;
@@ -29,87 +32,81 @@ body {
 	justify-content: center;
 	min-height: 100vh;
 	color: #fff;
-	background-color: #070217;
+	background-color: #070217; /* 3 модуль 3й пункт */
 }
 .logo {
-	margin-bottom: 50px;
+	margin-bottom: 50px; /* 3 модуль 4й пункт */
 }
 .links {
-	margin-bottom: 50px;
+	margin-bottom: 50px; /* 3 модуль 5й пункт */
 }
 .link {
 	display: inline-block;
-	padding: 24px 49px;
+	padding: 24px 49px; /* 3 модуль 6й пункт */
+	font-weight: 700;
+	font-size: 18px;
+	background-color: #3f2aff; /* 4 модуль 2й пункт */
 }
 .link:not(:last-child) {
-	margin-right: 25px;
+	margin-right: 25px; /* 3 модуль 7й пункт */
+}
+.link-download_program {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 18px;
+	color: #3f2aff; /* 4 модуль 3й пункт */
+	padding-left: 30px;
+	background: transparent url("../img/download.png") no-repeat left center / 20px 20px;  /* 4 модуль 4й пункт */
 }
 
 /* Страница статьи (Файл Артикл) */
 .container {
 	margin: 0 auto;
 	padding: 80px 0;
-	width: 1170px;
-	/* 1й пункт */
+	width: 1170px; /* 3 модуль 1й пункт */
 }
 .article_h1 {
-	margin: 0;
-	/* 2й пункт */
-	margin-bottom: 40px;
-	/* 3й пункт */
+	margin: 0; /* 3 модуль 2й пункт */
+	margin-bottom: 40px; /* 3 модуль 3й пункт */
 }
 .article_h2 {
-	margin: 0;
-	/* 2й пункт */
-	margin-bottom: 10px;
-	/* 9й пункт */
+	margin: 0; /* 3 модуль 2й пункт */
+	margin-bottom: 10px; /* 3 модуль 9й пункт */
 }
 .article_h3 {
-	margin: 0;
-	/* 2й пункт */
-	margin-bottom: 10px;
-	/* 10й пункт */
+	margin: 0; /* 3 модуль 2й пункт */
+	margin-bottom: 10px; /* 3 модуль 10й пункт */
 }
 .paragraph {
-	margin: 0;
-	/* 2й пункт */
+	margin: 0; /* 3 модуль 2й пункт */
 	margin-bottom: 40px;
-	width: 872px;
-	/* 3й пункт */
+	width: 872px; /* 3 модуль 3й пункт */
 }
 .article_list {
-	margin: 0;
-	/* 2й пункт ul */
-	padding-left: 15px;
-	/* 11й пункт */
+	margin: 0; /* 3 модуль 2й пункт ul */
+	padding-left: 15px; /* 3 модуль 11й пункт */
 }
 .grey-block {
 	border-radius: 20px;
 	padding: 30px;
-	background-color: #f3f3f3;
-	/* 5й и 6й пункт */
+	background-color: #f3f3f3; /* 3 модуль 5й и 6й пункт */
 }
 .grey-block:not(:last-child) {
-	margin-bottom: 40px;
-	/* 7й пункт */
+	margin-bottom: 40px; /* 3 модуль 7й пункт */
 }
 .grey-block .paragraph {
 	width: 692px;
-	margin-bottom: 10px;
-	/* 8й пункт */
+	margin-bottom: 10px; /* 3 модуль 8й пункт */
 }
 .article_list li:not(:last-child) {
-	margin-bottom: 20px;
-	/* 11й пункт */
+	margin-bottom: 20px; /* 3 модуль 11й пункт */
 }
 .img {
-	margin-bottom: 40px;
-	/* 12й пункт */
+	margin-bottom: 40px; /* 3 модуль 12й пункт */
 }
 .figure_img {
 	display: inline-block;
 	margin: 0;
 	margin-bottom: 40px;
-	width: 872px;
-	/* 13й пункт */
+	width: 872px; /* 3 модуль 13й пункт */
 }
