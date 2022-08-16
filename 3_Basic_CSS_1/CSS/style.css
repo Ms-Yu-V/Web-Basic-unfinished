@@ -1,0 +1,115 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'font', sans-serif;
+}
+
+/* Главная страница сайта (Файл Индекс) */
+.main-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	color: #fff;
+	background-color: #070217;
+}
+.logo {
+	margin-bottom: 50px;
+}
+.links {
+	margin-bottom: 50px;
+}
+.link {
+	display: inline-block;
+	padding: 24px 49px;
+}
+.link:not(:last-child) {
+	margin-right: 25px;
+}
+
+/* Страница статьи (Файл Артикл) */
+.container {
+	margin: 0 auto;
+	padding: 80px 0;
+	width: 1170px;
+	/* 1й пункт */
+}
+.article_h1 {
+	margin: 0;
+	/* 2й пункт */
+	margin-bottom: 40px;
+	/* 3й пункт */
+}
+.article_h2 {
+	margin: 0;
+	/* 2й пункт */
+	margin-bottom: 10px;
+	/* 9й пункт */
+}
+.article_h3 {
+	margin: 0;
+	/* 2й пункт */
+	margin-bottom: 10px;
+	/* 10й пункт */
+}
+.paragraph {
+	margin: 0;
+	/* 2й пункт */
+	margin-bottom: 40px;
+	width: 872px;
+	/* 3й пункт */
+}
+.article_list {
+	margin: 0;
+	/* 2й пункт ul */
+	padding-left: 15px;
+	/* 11й пункт */
+}
+.grey-block {
+	border-radius: 20px;
+	padding: 30px;
+	background-color: #f3f3f3;
+	/* 5й и 6й пункт */
+}
+.grey-block:not(:last-child) {
+	margin-bottom: 40px;
+	/* 7й пункт */
+}
+.grey-block .paragraph {
+	width: 692px;
+	margin-bottom: 10px;
+	/* 8й пункт */
+}
+.article_list li:not(:last-child) {
+	margin-bottom: 20px;
+	/* 11й пункт */
+}
+.img {
+	margin-bottom: 40px;
+	/* 12й пункт */
+}
+.figure_img {
+	display: inline-block;
+	margin: 0;
+	margin-bottom: 40px;
+	width: 872px;
+	/* 13й пункт */
+}
