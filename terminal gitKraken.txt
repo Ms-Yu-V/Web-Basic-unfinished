@@ -1,0 +1,12 @@
+🐙  Welcome to the GitKraken CLI!
+Type "gk" to see commands that allow you to work with GitKraken in the terminal.
+PS C:\Users\Ms_Dikarka\Documents\Web-Basic>  git mv 3_Basic_CSS_1\CSS\Normalize.css 3_Basic_CSS_1\CSS\normalize.css
+PS C:\Users\Ms_Dikarka\Documents\Web-Basic>  git mv 3_Basic_CSS_1\CSS\Style.css 3_Basic_CSS_1\CSS\style.css
+PS C:\Users\Ms_Dikarka\Documents\Web-Basic>  git mv 3_Basic_CSS_1\Article.css 3_Basic_CSS_1\article.css
+fatal: bad source, source=3_Basic_CSS_1/Article.css, destination=3_Basic_CSS_1/article.css
+PS C:\Users\Ms_Dikarka\Documents\Web-Basic>  git mv 3_Basic_CSS_1\Article.html 3_Basic_CSS_1\article.html
+PS C:\Users\Ms_Dikarka\Documents\Web-Basic>  git mv 3_Basic_CSS_1\Index.html 3_Basic_CSS_1\index.html
+PS C:\Users\Ms_Dikarka\Documents\Web-Basic> git merge 3_Basic_CSS_1 into main
+merge: into - not something we can merge
+PS C:\Users\Ms_Dikarka\Documents\Web-Basic> git merge --help
+PS C:\Users\Ms_Dikarka\Documents\Web-Basic> 
