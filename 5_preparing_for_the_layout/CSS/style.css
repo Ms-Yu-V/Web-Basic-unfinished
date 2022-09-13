@@ -1,0 +1,277 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'font', Arial, Verdana, sans-serif;
+}
+
+/* Главная страница сайта (Файл index) */
+.ind-body {
+	font-family: Arial, Verdana, sans-serif; /* 4 модуль 1й пункт */
+}
+.main-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	color: #fff;
+	background-color: #070217; /* 3 модуль 3й пункт */
+}
+.logo {
+	margin-bottom: 50px; /* 3 модуль 4й пункт */
+}
+.links {
+	margin-bottom: 50px; /* 3 модуль 5й пункт */
+}
+.link {
+	display: inline-block;
+	padding: 24px 49px; /* 3 модуль 6й пункт */
+	font-weight: 700;
+	font-size: 18px;
+	background-color: #3f2aff; /* 4 модуль 2й пункт */
+}
+.link:not(:last-child) {
+	margin-right: 25px; /* 3 модуль 7й пункт */
+}
+.link-download_program {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 18px;
+	color: #3f2aff; /* 4 модуль 3й пункт */
+	padding-left: 30px;
+	background: transparent url("../img/download.png") no-repeat left center / 20px 20px;  /* 4 модуль 4й пункт */
+}
+
+/* Страница статьи (Файл article) */
+.art-container {
+	margin: 0 auto;
+	padding: 80px 0;
+	width: 1170px; /* 3 модуль 1й пункт */
+}
+.art_h1 {
+	margin: 0; /* 3 модуль 2й пункт */
+	margin-bottom: 40px; /* 3 модуль 3й пункт */
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 60px;
+	color: #333; /* 4 модуль 1й пункт */
+}
+.fat_h1 {
+	font-weight: bold; /* 4 модуль 1й пункт Файл "как должно быть" */
+}
+.art_h2 {
+	margin: 0; /* 3 модуль 2й пункт */
+	margin-bottom: 10px; /* 3 модуль 9й пункт */
+	font-size: 40px;
+	line-height: 46px;
+	color: #333; /* 4 модуль 5й пункт */
+}
+.art_h3 {
+	margin: 0; /* 3 модуль 2й пункт */
+	margin-bottom: 10px; /* 3 модуль 10й пункт */
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 34px;
+	color: #333; /* 4 модуль 8й пункт */
+}
+.paragraph {
+	margin: 0; /* 3 модуль 2й пункт */
+	margin-bottom: 40px;
+	width: 872px; /* 3 модуль 3й пункт */
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+	color: #333; /* 4 модуль 2й пункт */
+}
+.art_list {
+	margin: 0; /* 3 модуль 2й пункт ul */
+	padding-left: 15px; /* 3 модуль 11й пункт */
+}
+.art_li{
+	border-bottom: 1px solid #3f2aff;
+	font-size: 20px;
+	color: #3f2aff; /* 4 модуль 7й пункт */
+}
+.art_list li::marker {
+	color: #3f2aff /* 4 модуль 6й пункт */
+}
+.art_list li:not(:last-child) {
+	margin-bottom: 20px; /* 3 модуль 11й пункт */
+}
+.blue-block {
+	border-radius: 20px;
+	padding: 50px 95px;
+	width: 100%;
+	font-weight: 700;
+	font-size: 30px;
+	color: #fff;
+	background-color: #3f2aff; /* 4 модуль 3й пункт */
+}
+.grey-block {
+	border-radius: 20px;
+	padding: 30px;
+	background-color: #f3f3f3; /* 3 модуль 5й и 6й пункт */
+	background-position: right top;
+	background-size: 23% 100%;
+	background-repeat: no-repeat; /* 4 модуль 4й пункт */
+}
+.grey-block_img1 {
+	background-image: url("../img/decorate-1.png"); /* 4 модуль 4й пункт */
+}
+.grey-block_img2 {
+	background-image: url("../img/decorate-2.png"); /* 4 модуль 4й пункт */
+}
+.grey-block:not(:last-child) {
+	margin-bottom: 40px; /* 3 модуль 7й пункт */
+}
+.grey-block .paragraph {
+	width: 692px;
+	margin-bottom: 10px; /* 3 модуль 8й пункт */
+}
+.art_img {
+	margin-bottom: 40px; /* 3 модуль 12й пункт */
+}
+.figure_img {
+	display: inline-block;
+	margin: 0;
+	margin-bottom: 40px;
+	width: 872px; /* 3 модуль 13й пункт */
+	font-size: 0; /* 4 модуль 9й пункт*/
+}
+.figure_img figcaption {
+	border: 1px solid #b6b6b6;
+	border-top: 0;
+	padding: 19px 0;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;/* 4 модуль 10й пункт*/
+}
+
+/* Модули курса Веб-верстка (Файл modules) */
+.mod_container {
+ margin: 0 auto;
+ width: 100%;
+ padding: 50px 0;
+ max-width: 1170px;
+ box-sizing: border-box;
+ font-family: 'Roboto', Arial, Verdana, Helvetica, sans-serif;
+}
+.Mod_logo {
+  width: 137px;
+  height: 30px;
+  color: #333;
+}
+.arrow_text {
+	display: block;
+	padding-left: 52px;
+	margin: 25px 0;
+	background: transparent url("../img/Arrow.png") no-repeat left center / 45px 8px;
+  color:  #3F2AFF;
+  font-weight: 400;
+  font-size: 20px;
+}
+.mod_h1 {
+	margin: 0;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 70px;
+	color: #3F2AFF;
+	margin-bottom: 49px;
+}
+.mod_h2 {
+	font-weight: 700;
+	font-size: 40px;
+	color: #3F2AFF;
+	margin: 0;
+	margin-top: 25px;
+	margin-bottom: 2px;
+}
+
+.anti_ul {
+	padding: 0;
+	font-size: 0;
+}
+
+.mod_list {
+	display: inline-block;
+	position: relative;
+	width: 572px;
+	min-height: 570px;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+	vertical-align: top;
+	padding: 180px 25px 25px 25px;
+}
+.mod_list:nth-child(2n) {
+	margin-left: 25px;
+	} 
+.mod_list:nth-child(-n+2) {
+	margin-bottom: 25px;
+} 
+.mod_li_align {
+  padding: 0;
+}
+.mod_li {
+	list-style-type: none;
+	padding: 0;
+	padding-top: 2px;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 165%;
+}
+
+.numbers {
+  position: absolute;
+	right: 25px;
+  bottom: 25px;
+  text-align: right;
+  color: #EAEAEA;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 46px;
+}
+.mod_img_1 {
+	background: transparent url("../img/Mod_1.png") no-repeat top / 572px 180px;
+}
+.mod_img_2 {
+	background: transparent url("../img/Mod_2.png") no-repeat center top / 572px 180px;
+}
+.mod_img_3 {
+	background: transparent url("../img/Mod_3.png") no-repeat center top / 572px 180px;
+}
+.mod_img_4 {
+	background: transparent url("../img/Mod_4.png") no-repeat center top / 572px 180px;
+}
+
+.button {
+	display: block;
+	margin: 0 auto;
+	width: 274px;
+	border: 2px solid #3F2AFF;
+	padding: 25px 75px;
+	margin-bottom: 50px;
+}
+.button_text {
+	text-align: center;
+	cursor: pointer;
+	color: #3F2AFF;
+	font-size: 18px;
+  line-height: 21px;
+}
