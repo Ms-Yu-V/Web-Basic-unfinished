@@ -9,6 +9,15 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'Muller Medium';
+  src: url('../fonts/MullerMedium.eot');
+  src: local('Muller Medium'), local('MullerMedium'),
+    url('../fonts/MullerMedium.woff2') format('woff2'),
+    url('../fonts/MullerMedium.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
   font-family: 'Muller Bold';
   src: url('../fonts/MullerBold.eot');
   src: local('Muller Bold'), local('MullerBold'),
@@ -23,9 +32,6 @@
   background: #E5E5E5;
   padding: 30px 0;
 }
-.Lag_sect_title{
-  font-family: 'Muller Bold', Arial, Verdana, Helvetica, sans-serif;
-}
 .lag_container {
   margin: 0 auto;
   width: 100%;
@@ -38,9 +44,6 @@
 }
 .lag_container_sect_contacts {
   /* margin-bottom: 40; not*/
-}
-.lag_container_sect_serv {
-
 }
 
 .lag_header {
@@ -58,21 +61,54 @@
 
 .head_number {
   margin-right: auto;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'Muller Medium', Arial, Verdana, Helvetica, sans-serif;
+  color: #666666;
+  text-decoration: none;
 }
 .head_arrow_left {
   padding-left: 28px;
+  font-size: 16px;
+  line-height: 16px;
   background: transparent url("../img/arrow_left.svg") no-repeat left center / 21px 12px;
   color: #CC9933;
 }
-.arrow_right {
+.arrow_right_spec {
+  transform: translateY(5px);
   color: #F0BF5F;
+}
+.arrow_right_text_spec {
+  font-size: 16px;
+  line-height: 16px;
+  color: #F0BF5F;
+  text-decoration: none;
+}
+.arrow_right_serv {
+  transform: translateY(5px);
+  color: #CC9933;
+}
+.arrow_right_text_serv {
+  color: #CC9933;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 40px;
+  font-family: 'Muller Medium', Arial, Verdana, Helvetica, sans-serif;
+}
+.arrow_right_plac {
+  transform: translateY(5px);
+  /* color: #FFFFFF; */
+}
+.arrow_right_text_plac {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .lag_sect_items {
-margin: 0;
-padding: 0;
-display: inline-block;
-position: relative;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
 }
 .items_spec {
   display: flex;
@@ -80,16 +116,14 @@ position: relative;
 ;
 }
 .spec_block{
-display: flex;
-flex-direction: column;
-width: calc((100%-30px) / 2);
+  display: flex;
+  flex-direction: column;
+  width: calc((100%-30px) / 2);
 }
 .spec_block:not(:last-child) {
   margin-right: 24px;
 }
-.items_serv {
 
-}
 .lag_nav_items {
   display: inline-block;
   margin: 0;
@@ -132,7 +166,7 @@ width: calc((100%-30px) / 2);
   padding-bottom: 40px;
 }
 .spec_art:last-child {
- margin-bottom: 0;
+  margin-bottom: 0;
 }
 .spec_art_rirht {
   display: flex;
@@ -181,56 +215,88 @@ width: calc((100%-30px) / 2);
 }
 
 .preview_block_text_serv {
-  padding: 26px 126px 35px 45px;
- }
- .block_text_super {
+ padding: 26px 126px 35px 45px;
+}
+.block_text_super {
   padding: 40px 42px 32px 45px;
- }
- .preview_block_plac {
+}
+.preview_block_plac {
   padding: 36px 45px 45px 45px;
- }
- .text_plac_16 {
+}
+.text_plac_16 {
   font-size: 16px;
   line-height: 16px;
- }
- .text_plac_20 {
-  padding: 373px 70px 27px 54px;
+  color: #000000;
 }
-.text_plac_cost {
-
+.text_plac_20 {
+  font-size: 16px;
+  line-height: 16px;
+  padding: 373px 70px 27px 54px;
+  color: #FFFFFF;
 }
 .text_plac_cost_from {
   color: #999999;
 }
 .text_plac_money {
-  color: #000000;
-  margin: 0 4px;
-}
-.text_plac_night {
-  color: #000000;
-}
-.text_plac_hotel {
-  color: #000000;
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'Muller Bold', Arial, Verdana, Helvetica, sans-serif;
 }
 .text_plac_city {
   color: #999999;
 } 
-
-
-.arrow_plac {
-
+.spec_title_1_2{
+  font-size: 40px;
+  line-height: 40px;
 }
-/* lag_h2
-Lag_sect_text */
+.spec_title_3{
+  font-size: 60px;
+  line-height: 60px;
+}
+.spec_money_1_2{
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.spec_money_3{
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.lag_sect_text {
+  font-size: 16px;
+  line-height: 32px;
+}
 
+.lag_h1 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+}
+.lag_h2 {
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
+  font-weight: 400;
+  padding-left: 40px;
+}
+.lag_h3 {
+  color: #FFFFFF;
+  font-family: 'Muller Bold', Arial, Verdana, Helvetica, sans-serif;
+}
 .lag_nav{
   height: 70px;
-  outline: 1px solid red ;
   border-radius: 15px;
   vertical-align: top;
   background: #FFFFFF;
+  font-size: 16px;
+  line-height: 16px;
 }
-.Lag_btn {
+.lag_nav_link {
+  color: #666666;
+  text-decoration: none;
+}
+.lag_btn {
   display: inline-block;
   position: relative;
   border: 1px solid #CC9933;
@@ -250,73 +316,16 @@ Lag_sect_text */
 .nav_btn_tour {
   margin-right: 40px;
 }
-.btn_plac {
 
-}
-
-.preview_
-}
 /* 
-
-
-
-
-
-lag_nav_link
-
-
-nav_btn_call
-
-
-
- preview_image_serv */
-
- /* 
- arrow_right
-arrow_spec
-arrow_serv
- text_serv */
-
-
- .spec_title_1_2{
-  /* sect_title_40 */
-}
-.spec_title_3{
-  /* sect_title_60 */
-}
-.spec_money_1_2{
-  /* 40 */
-}
-.spec_money_3{
-  /* 60 */
-}
-
-
-
-
-Lag_main
-
-
-
+id:
 history
-sect_title_hist
-text_hist
-
 services
-
-
-
 superiority
-super_li_icon
-/* super_li_text */
+placement 
+blog
+contacts
 
-placement
-items_plac
-preview_image_plac
-preview_image_plac
-/* text_plac_16 */
-text_plac_cost
-text_plac_money
-text_plac_night
-text_plac_hotel
-text_plac_city
+svg: 
+super_li_icon
+*/
